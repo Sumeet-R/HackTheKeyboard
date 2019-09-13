@@ -21,12 +21,9 @@ Apache Webserver is highly recomended for its simplicity but you can use any web
 Here is an example of setting up an environment using Android Termux
 
 1) Install Apache Server -> `apt-get install apache2`
-
 2) Start Apache Server -> `apachectl start`<br>
    Note: Just ignore the runtime warnings!
-
 3) Install Open SSH -> `pkg install openssh` or `apt-get install openssh`
-    
 4) Open Reverse HTTP Tunnel to Serveo.net and wait -> `ssh -R 80:localhost:8080 serveo.net`<br>
    Note: 8080 is the default local port of apache, and port 80 will be the incomming port from Internet
 
