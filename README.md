@@ -5,6 +5,7 @@
 The program should not be used for any illegal activities such as running the compiled version of this code in a user machine without his/her consent, distributing it by means of spamming/phishing campaigns etc.
 
 <b>How stuff works?</b>
+
 This KeyLogger uses two main packages (Keyboard and Requests)
 
 a) Keyboard package contains pre-built classes and functions which acts as hook procedures to the system kernal using which it can intercept events, such as messages, mouse actions, and keystrokes. A package function known as read_key() runs in a infinite while loop capturing all keys into a string variable in an increamental manner upto 20 characters.
