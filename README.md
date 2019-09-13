@@ -1,7 +1,7 @@
 # HackTheKeyboard
 <h3>A tiny keylogger coded with just 15 lines of Python script, which captures keystrokes and sends them to your web server of your choice.</h3>
 
-<b>First Thing First</b>: This keylogger project is prepared for those who would like to understand the working and behaviour of keyloggers, reverse engineering the compiled version of the code to find kill-switches and build IOCs/Signatures, ethically test on systems for the purpose of Ethical Hacking/Penetration Testing such as testing the bypasses and detection by EDR, SIEM, HIPS etc.
+<b>First Thing First</b>: This keylogger project is prepared for those who would like to understand the working and behaviour of keyloggers, reverse engineer the compiled version of the code to find kill-switches and build IOCs/Signatures, ethically test on systems for the purpose of Ethical Hacking/Penetration Testing such as testing the bypasses and detection by EDR, SIEM, HIPS etc.
 The program should not be used for any illegal activities such as running the compiled version of this code in a user machine without his/her consent, distributing it by means of spamming/phishing campaigns etc.
 
 <br>
