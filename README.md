@@ -6,6 +6,7 @@ The program should not be used for any illegal activities such as running the co
 
 <b>How stuff works?</b>
 This KeyLogger uses two main packages (Keyboard and Requests)
+
 a) Keyboard package contains pre-built classes and functions which acts as hook procedures to the system kernal using which it can intercept events, such as messages, mouse actions, and keystrokes. A package function known as read_key() runs in a infinite while loop capturing all keys into a string variable in an increamental manner upto 20 characters.
 
 b) Once it captures the 20 keystrokes, it uses Requests package function requests.get("URL") to send the captured keystrokes string in HTTP packet using GET method towards your chosen web server such as Apache. The keystrokes are stored in the webserver log as a normal HTTP GET request.
