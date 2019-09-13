@@ -21,17 +21,17 @@ Here is an example of setting up an environment using Android Termux
 
 1) Install Apache Server -> `apt-get install apache2`
 
-2) Start Apache Server -> `apachectl start`
+2) Start Apache Server -> `apachectl start`<br>
    Note: Just ignore the runtime warnings!
 
 3) Install Open SSH -> `pkg install openssh` or `apt-get install openssh`
     
-4) Open Reverse HTTP Tunnel to Serveo.net -> `ssh -R 80:localhost:8080 serveo.net`
+4) Open Reverse HTTP Tunnel to Serveo.net -> `ssh -R 80:localhost:8080 serveo.net`<br>
    Note: 8080 is the deafault local port of apache, and port 80 will be the incomming port
 
 <br>
 <b> Editing and Compiling the Keylogger Python file</b>
-Editing and compiling requires python interpreter to be installed and a suitable IDE such as PyCharm.
+Editing and compiling requires python interpreter to be installed and a suitable IDE such as PyCharm.<br>
 (Rookies can just Google it online on "how to install python along with an IDE")
 
 1) Download the Zip package of this repo and extract in your drive.
