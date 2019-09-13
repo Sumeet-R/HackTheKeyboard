@@ -39,7 +39,7 @@ Editing and compiling requires python interpreter to be installed and a suitable
 2) Install dependencies -> `pip3 install -r requirements.txt` or manually install the mentioned packages in requirements.txt from IDE
 3) Open your IDE and import the python script, modify the variable named "host=" with the hostname displayed at 4th step of server setup.
 4) Run the python code using `sudo python3 htk.py'
-5) Test by typing upto 20 characters. If requests with keystrokes appears in your serveo terminal, it would mean that you have sucessfully setup the keylog server and Keylogger.
+5) Test by typing upto 20 characters. If requests with keystrokes appears in your serveo terminal, it would mean that you have sucessfully setup the keylog server and Keylogger. You can later refer the Apache access log file located in `/var/log/apache/access_log`
 
 <br>
 <b> Compiling the Keylogger</b><br>
