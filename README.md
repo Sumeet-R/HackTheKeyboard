@@ -43,7 +43,7 @@ Editing and compiling requires python interpreter to be installed and a suitable
 
 <br>
 <b> Pakaging the Keylogger into executable binary</b><br>
-You can search online how to compile a keylogger based on target OS environment.
+You can search online how to create an executable package of the keylogger based on target OS environment.
 For Windows : https://pypi.org/project/auto-py-to-exe/ 
 
 
