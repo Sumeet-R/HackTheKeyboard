@@ -1,5 +1,5 @@
 # HackTheKeyboard
-<h3>A tiny keylogger coded with just 15 lines of Python script, which captures keystrokes and sends them to your web server of your choice.</h3>
+<h3>A tiny keylogger coded with just 12 lines of Python script, which captures keystrokes and sends them to your web server of your choice.</h3>
 
 <b>First Thing First</b><br>
 This keylogger project is prepared for those who would like to understand the working and behaviour of keyloggers, reverse engineer the compiled version of the code to find kill-switches and build IOCs/Signatures, ethically test on systems for the purpose of Ethical Hacking/Penetration Testing such as testing the bypasses and detection by EDR, SIEM, HIPS etc.
@@ -10,7 +10,7 @@ The program should not be used for any illegal activities such as running the co
 
 This KeyLogger uses two main packages (Keyboard and Requests)
 
-a) Keyboard package contains pre-built classes and functions which acts as hook procedures to the system kernel using which it can intercept events, such as messages, mouse actions, and keystrokes. A package function known as read_key() runs in an infinite while loop capturing all keys into a string variable in an incremental manner upto 20 characters.
+a) Keyboard package contains pre-built classes and functions which acts as hook procedures to the system kernel using which it can intercept events, such as messages, mouse actions, and keystrokes. A package function known as read_key() runs in an infinite while loop capturing all keys into a string variable in an incremental manner until the character <b> 'e' </b> is pressed.
 
 b) Once it captures all 20 keystrokes, it uses Requests package function requests.get("URL") to send the captured keystroke strings via HTTP packet using GET method directly into your chosen web server such as Apache. You can prepare your server in your Termux Environment running in an Android Phone. The keystrokes are then stored in the webserver access log file as a normal HTTP GET request entries. The string variable is re-initialized and starts filling up again while in the loop.
  
