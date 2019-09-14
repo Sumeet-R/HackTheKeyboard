@@ -6,7 +6,7 @@ This keylogger project is prepared for those who would like to understand the wo
 The program should not be used for any illegal activities such as running the compiled version of this code in a user machine without his/her consent, distributing it by means of spamming/phishing campaigns etc.
 
 <br><br>
-<b> Want a Video demonstration? Have a quick look on below </b><br>
+<b> Short working demonstration of HackTheKeyBoard </b><br>
 https://www.youtube.com/watch?v=miUS2aoupD8
 
 <br>
