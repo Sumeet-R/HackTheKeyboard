@@ -10,9 +10,9 @@ The program should not be used for any illegal activities such as running the co
 
 This KeyLogger uses two main packages (Keyboard and Requests)
 
-a) Keyboard package contains pre-built classes and functions which acts as hook procedures to the system kernel using which it can intercept events, such as messages, mouse actions, and keystrokes. A package function known as read_key() runs in an infinite while loop capturing all keys into a string variable in an incremental manner until the character <b> 'e' </b> is pressed.
+a) Keyboard package contains pre-built classes and functions which acts as hook procedures to the system kernel using which it can intercept events, such as messages, mouse actions, and keystrokes. A package function known as read_key() runs in an infinite while loop capturing all keys into a string variable in an incremental manner.
 
-b) Once it captures all 20 keystrokes, it uses Requests package function requests.get("URL") to send the captured keystroke strings via HTTP packet using GET method directly into your chosen web server such as Apache. You can prepare your server in your Termux Environment running in an Android Phone. The keystrokes are then stored in the webserver access log file as a normal HTTP GET request entries. The string variable is re-initialized and starts filling up again while in the loop.
+b) Once it captures all keystroke and if it finds character 'e' in the strings(the most typed character), it triggers Requests package function - requests.get("URL") to send the captured keystroke strings via HTTP packet using GET method directly into your chosen web server such as Apache. You can prepare your server in your Termux Environment running in an Android Phone. The keystrokes are then stored in the webserver access log file as a normal HTTP GET request entries. The string variable is re-initialized and starts filling up again while in the loop.
  
 <br>
 <b>Setting up the Server</b><br>
