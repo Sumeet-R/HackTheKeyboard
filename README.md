@@ -1,5 +1,5 @@
 # HackTheKeyboard
-<h3>A tiny keylogger coded with just 12 lines of Python script, which captures keystrokes and sends them to your web server of your choice.</h3>
+<h4>A tiny keylogger coded with just 12 lines of Python script, which hooks to the kernel, intercepts keystrokes and forwards them to your web server over HTTPS.</h4>
 
 <b>First Thing First</b><br>
 This keylogger project is created for those who would like to understand the working and behaviour of keyloggers, reverse engineer the compiled version of the code to find kill-switches and build IOCs/Signatures, ethically test on systems for the purpose of Ethical Hacking/Penetration Testing such as testing the bypasses and detection by EDR, SIEM, HIPS etc.
