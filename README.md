@@ -42,7 +42,7 @@ Editing and compiling requires python interpreter to be installed and a suitable
 5) Test by typing upto 20 characters. If requests with keystrokes appears in your serveo terminal, it would mean that you have sucessfully setup the keylog server and Keylogger. You can later refer the Apache access log file located in `/var/log/apache/access_log`
 
 <br>
-<b> Compiling the Keylogger</b><br>
+<b> Pakaging the Keylogger into executable binary</b><br>
 You can search online how to compile a keylogger based on target OS environment.
 For Windows : https://pypi.org/project/auto-py-to-exe/ 
 
