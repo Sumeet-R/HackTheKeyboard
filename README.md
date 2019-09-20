@@ -3,7 +3,8 @@
 
 <b>First Thing First</b><br>
 This keylogger project is created for those who would like to understand the working and behaviour of keyloggers, reverse engineer the compiled version of the code to find kill-switches and build IOCs/Signatures, ethically test on systems for the purpose of Ethical Hacking/Penetration Testing such as testing the bypasses and detection by EDR, SIEM, HIPS etc.
-The program should not be used for any illegal activities such as running the compiled version of this code in a user machine without his/her consent, distributing it by means of spamming/phishing campaigns etc.
+The program should not be used for any illegal activities such as running the compiled version of this code in a user machine without his/her consent, distributing it by means of spamming/phishing campaigns etc. The project also does not encourage over any methods to bypass UAC or any kind of priviledge escalation, but this program or its compiled executable will never run without proper super-user priviledge which is a basic requirement of kernel hook creation.
+
 
 <br>
 <b> Short working demonstration of HackTheKeyBoard </b><br>
@@ -42,10 +43,11 @@ Editing and compiling requires python interpreter to be installed and a suitable
 5) Test by typing upto 20 characters. If requests with keystrokes appears in your serveo terminal, it would mean that you have sucessfully setup the keylog server and Keylogger. You can later refer the Apache access log file located in `/var/log/apache/access_log`
 
 <br>
-<b> Pakaging the Keylogger into executable binary</b><br>
-You can search online how to create an executable package of the keylogger based on target OS environment.
-For Windows : https://pypi.org/project/auto-py-to-exe/ 
+<b> Packaging the Keylogger into executable binary</b><br>
+You can search online how to create an executable package of the keylogger based on your victim target OS environment or follow below links. 
 
+For Windows : https://pypi.org/project/auto-py-to-exe/ 
+For Other OS : https://pypi.org/project/PyInstaller/
 
 
  
